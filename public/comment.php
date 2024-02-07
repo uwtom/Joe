@@ -113,7 +113,7 @@ function threadedComments($comments, $options)
             <?php if ($comments->status === "waiting") : ?>
               <em class="waiting">（评论审核中...）</em>
             <?php endif; ?>
-            <div class="agent"><?php _getAgentOS($comments->agent); ?> · <?php _getAgentBrowser($comments->agent); ?></div>
+            <div class="agent"><?php _getAgentOS($comments->agent); ?> · <?php _getAgentBrowser($comments->agent); ?> · <?php XQLocation_Plugin::render($comments->ip); ?></div>
           </div>
           <div class="substance">
             <?php _getParentReply($comments->parent) ?>
