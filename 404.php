@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>404</title>
-        <link rel="stylesheet" href="<?php $this->options ->siteUrl(); ?>/usr/themes/Joe/assets/css/404.css" />
+        <link rel="stylesheet" href="usr/themes/Joe/assets/css/404.css" />
     </head>
     <body>
         <div class="error-main">
